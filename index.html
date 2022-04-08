@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-sm navi justify-content-center">
+        <nav class="navbar navbar-expand-sm navi justify-content-center bg-dark nav-dark">
             <ul class="nav ">
                 <li class="nav-item">
                     <a href="#test1" class="nav-link text-dark bg-light">ONE</a>
@@ -24,6 +24,33 @@
             </ul>
         </nav>
     <!-- Nav Bar -->
+    <!-- Carousel -->
+        <div id="slid" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slid" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#slid" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#slid" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://cdn.pixabay.com/photo/2020/01/27/04/51/sport-4796426_1280.jpg" alt="cricket" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2021/09/07/07/11/game-console-6603120_1280.jpg" alt="gaming" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2019/06/17/19/48/source-4280758_1280.jpg" alt="programming" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#slid" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#slid" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+        </div>   
+   <!-- Carousel -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

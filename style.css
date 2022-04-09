@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@300&family=Playfair+Display&family=Poppins&family=Raleway:wght@200&family=Ubuntu:wght@300&display=swap');
 .navi{
     -webkit-box-shadow: -1px 11px 23px -3px rgba(28,28,28,0.81); 
@@ -6,9 +7,20 @@
 .nav-link{
     margin: 0 5px;
 }
-.text-dark{
+.text-light,.text-dark{
     font-family: 'EB Garamond', serif;
+    text-align: right;
 }
-
+.h1{
+    font-family: 'Playfair Display', serif;
+}
+.tite{
+    padding: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+.para{
+    padding: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 
